@@ -1,0 +1,109 @@
+D:\Macber\Game\Game\bin\Debug\Game.exe.config
+D:\Macber\Game\Game\bin\Debug\Game.exe
+D:\Macber\Game\Game\bin\Debug\Game.pdb
+D:\Macber\Game\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+D:\Macber\Game\Game\obj\Debug\Game.Form1.resources
+D:\Macber\Game\Game\obj\Debug\Game.Properties.Resources.resources
+D:\Macber\Game\Game\obj\Debug\Game.csproj.GenerateResource.cache
+D:\Macber\Game\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+D:\Macber\Game\Game\obj\Debug\Game.exe
+D:\Macber\Game\Game\obj\Debug\Game.pdb
+D:\Macber\Game\Game\bin\Debug\AForge.dll
+D:\Macber\Game\Game\bin\Debug\AForge.Video.DirectShow.dll
+D:\Macber\Game\Game\bin\Debug\AForge.Video.dll
+D:\Macber\Game\Game\bin\Debug\zxing.dll
+D:\Macber\Game\Game\bin\Debug\zxing.presentation.dll
+D:\Macber\Game\Game\bin\Debug\AForge.xml
+D:\Macber\Game\Game\bin\Debug\AForge.Video.xml
+D:\Macber\Game\Game\bin\Debug\AForge.Video.DirectShow.xml
+D:\Macber\Game\Game\bin\Debug\zxing.xml
+D:\Macber\Game\Game\bin\Debug\zxing.presentation.xml
+D:\Macber\Game\Game\obj\Debug\Game.csproj.CopyComplete
+D:\Macber\Game\Game\bin\Debug\Newtonsoft.Json.dll
+D:\Macber\Game\Game\bin\Debug\Newtonsoft.Json.xml
+D:\Macber\Game\Game\obj\Debug\Game.SettingForm.resources
+D:\Macber\Game\Game\bin\Debug\Game.exe.manifest
+D:\Macber\Game\Game\bin\Debug\Game.application
+D:\Macber\Game\Game\obj\Debug\Game.exe.manifest
+D:\Macber\Game\Game\obj\Debug\Game.application
+D:\Macber\Game\Game\bin\Debug\MachineDB.json
+D:\Macber\Game\Game\bin\Debug\F37BlankaArabic-Medium.ttf
+D:\Macber\Game\Game\bin\Debug\F37Wicklow-Bold.otf
+D:\GameV2WithAnimation\Game\Game\bin\Debug\F37BlankaArabic-Medium.ttf
+D:\GameV2WithAnimation\Game\Game\bin\Debug\F37Wicklow-Bold.otf
+D:\GameV2WithAnimation\Game\Game\bin\Debug\MachineDB.json
+D:\GameV2WithAnimation\Game\Game\bin\Debug\Game.exe.config
+D:\GameV2WithAnimation\Game\Game\bin\Debug\Game.exe.manifest
+D:\GameV2WithAnimation\Game\Game\bin\Debug\Game.application
+D:\GameV2WithAnimation\Game\Game\bin\Debug\Game.exe
+D:\GameV2WithAnimation\Game\Game\bin\Debug\Game.pdb
+D:\GameV2WithAnimation\Game\Game\bin\Debug\AForge.dll
+D:\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Video.DirectShow.dll
+D:\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Video.dll
+D:\GameV2WithAnimation\Game\Game\bin\Debug\Newtonsoft.Json.dll
+D:\GameV2WithAnimation\Game\Game\bin\Debug\zxing.dll
+D:\GameV2WithAnimation\Game\Game\bin\Debug\zxing.presentation.dll
+D:\GameV2WithAnimation\Game\Game\bin\Debug\AForge.xml
+D:\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Video.xml
+D:\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Video.DirectShow.xml
+D:\GameV2WithAnimation\Game\Game\bin\Debug\Newtonsoft.Json.xml
+D:\GameV2WithAnimation\Game\Game\bin\Debug\zxing.xml
+D:\GameV2WithAnimation\Game\Game\bin\Debug\zxing.presentation.xml
+D:\GameV2WithAnimation\Game\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+D:\GameV2WithAnimation\Game\Game\obj\Debug\Game.Form1.resources
+D:\GameV2WithAnimation\Game\Game\obj\Debug\Game.Properties.Resources.resources
+D:\GameV2WithAnimation\Game\Game\obj\Debug\Game.SettingForm.resources
+D:\GameV2WithAnimation\Game\Game\obj\Debug\Game.csproj.GenerateResource.cache
+D:\GameV2WithAnimation\Game\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+D:\GameV2WithAnimation\Game\Game\obj\Debug\Game.exe.manifest
+D:\GameV2WithAnimation\Game\Game\obj\Debug\Game.application
+D:\GameV2WithAnimation\Game\Game\obj\Debug\Game.csproj.CopyComplete
+D:\GameV2WithAnimation\Game\Game\obj\Debug\Game.exe
+D:\GameV2WithAnimation\Game\Game\obj\Debug\Game.pdb
+D:\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Controls.dll
+D:\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Imaging.dll
+D:\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Math.dll
+D:\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Vision.dll
+D:\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Controls.xml
+D:\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Imaging.xml
+D:\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Math.xml
+D:\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Vision.xml
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\F37BlankaArabic-Medium.ttf
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\F37Wicklow-Bold.otf
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\MachineDB.json
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\Game.exe.config
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\Game.exe.manifest
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\Game.application
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\Game.exe
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\Game.pdb
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Controls.dll
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\AForge.dll
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Imaging.dll
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Math.dll
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Video.DirectShow.dll
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Video.dll
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Vision.dll
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\Newtonsoft.Json.dll
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\zxing.dll
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\zxing.presentation.dll
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\AForge.xml
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Controls.xml
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Imaging.xml
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Math.xml
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Video.xml
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Video.DirectShow.xml
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\AForge.Vision.xml
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\Newtonsoft.Json.xml
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\zxing.xml
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\bin\Debug\zxing.presentation.xml
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\obj\Debug\Game.Form1.resources
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\obj\Debug\Game.Properties.Resources.resources
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\obj\Debug\Game.SettingForm.resources
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\obj\Debug\Game.csproj.GenerateResource.cache
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\obj\Debug\Game.exe.manifest
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\obj\Debug\Game.application
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\obj\Debug\Game.csproj.CopyComplete
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\obj\Debug\Game.exe
+D:\Versions\Version 3 Camera Resolution\GameV2WithAnimation\Game\Game\obj\Debug\Game.pdb
