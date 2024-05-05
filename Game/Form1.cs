@@ -15,6 +15,7 @@ using System.IO;
 using System.Linq;
 using System.Management;
 using System.Net.NetworkInformation;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -73,24 +74,30 @@ namespace Game
         {
             #region Font Type 
             pictureBox_Scanning.SizeMode = PictureBoxSizeMode.Normal;
-            pictureBox_Scanning.Dock = DockStyle.Fill;
-            pictureBox_Scanning.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
+            //pictureBox_Scanning.Dock = DockStyle.Fill;
+         
+           
             Scan_Message1.Font = new Font(boldFont.Families[0], 20);
             Scan_Message2.Font = new Font(boldFont.Families[0], 20);
 
             lbl_loading.Font = new Font(boldFont.Families[0], 48);
-            UserName.Font = new Font(mediamFont.Families[0], 20);
-            UserEmail.Font = new Font(mediamFont.Families[0], 20);
-            StartGame_Logged.Font = new Font(boldFont.Families[0], 20);
-            StartGame_newUser.Font = new Font(boldFont.Families[0], 20);
+            UserName.Font = new Font(mediamFont.Families[0], 40);
+            UserEmail.Font = new Font(mediamFont.Families[0], 40);
+            StartGame_Logged.Font = new Font(boldFont.Families[0], 36);
+            StartGame_newUser.Font = new Font(boldFont.Families[0], 36);
             WelcomeMessage.Font = new Font(boldFont.Families[0], 48);
-            Welcome_Back.Font = new Font(boldFont.Families[0], 20);
-            Logged_User.Font = new Font(boldFont.Families[0], 20);
-            Session_Message.Font = new Font(boldFont.Families[0], 20);
-            Session_Message2.Font = new Font(boldFont.Families[0], 20);
-           
+            Welcome_Back.Font = new Font(boldFont.Families[0], 48);
+            Logged_User.Font = new Font(boldFont.Families[0], 48);
+            Session_Message.Font = new Font(boldFont.Families[0], 48);
+            Session_Message2.Font = new Font(boldFont.Families[0], 48);
+
+
+
+
 
             #endregion
+
+           
 
             var machineModel = settingForm.getMachineModelFromJsonfile();
             comboBox_rotateTypes.Visible = false;
@@ -170,8 +177,9 @@ namespace Game
                 lbl_loading.Left = (this.ClientSize.Width - lbl_loading.Width) / 2;
                 lbl_loading.ForeColor = newColour;
             
-                //pictureBox_Scanning.Left = (this.ClientSize.Width - pictureBox_Scanning.Width) / 2;
-
+                pictureBox_Scanning.Left = (this.ClientSize.Width - pictureBox_Scanning.Width) / 2;
+            pictureBox_Scanning.Top = pic_scan.Top - 50;
+            pictureBox_Scanning.Height = pic_scan.Height-50;
                 Logo.Left = (this.ClientSize.Width - Logo.Width) / 2;
                 Session_Message.Left = (this.ClientSize.Width - Session_Message.Width) / 2;
                 Session_Message2.Left = (this.ClientSize.Width - Session_Message2.Width) / 2;
@@ -189,14 +197,16 @@ namespace Game
                    //Cancel Button and Images
                 StartGame_Logged.ForeColor = newColour;
 
-                pic_scan.Left = (this.ClientSize.Width - pic_scan.Width) / 2;
-                Panel_Camera.Left = (this.ClientSize.Width - Panel_Camera.Width) / 2;
+               // pic_scan.Left = (this.ClientSize.Width - pic_scan.Width) / 2;
 
-                Panel_Camera.Height = pic_scan.Height - 30;
-                pictureBox_Scanning.Height = panel_Scan.Height;
-                Panel_Camera.SizeChanged += Panel1_SizeChanged;
 
-                  //pictureBox_Scanning.SizeMode = PictureBoxSizeMode.StretchImage;
+            //   Panel_Camera.Left = (this.ClientSize.Width - Panel_Camera.Width) / 2;
+              // Panel_Camera.Width = pictureBox_Scanning.Width;
+            //  Panel_Camera.SizeChanged += Panel1_SizeChanged;
+              pic_scan.Location = new Point((this.ClientSize.Width / 2) - (pic_scan.Width / 2), (panel_Scan.Top + Scan_Message1.Height+ Scan_Message2.Height+ 30));
+            //pictureBox_Scanning.SizeMode = PictureBoxSizeMode.StretchImage;
+            //Panel_Camera.Location = new Point((this.ClientSize.Width / 2) - (Panel_Camera.Width) / 2, (pic_scan.Top +15));
+
 
             if (UserEmail.Text == "Your Email")
                 {
@@ -270,7 +280,7 @@ namespace Game
                     }
                     else
                     {
-                        Panel_Camera.Visible = true;
+                      //  Panel_Camera.Visible = true;
                         displayScanPanel();
 
                         startCamera();
@@ -284,12 +294,12 @@ namespace Game
         private void Panel1_SizeChanged(object sender, EventArgs e)
         {
             // Adjust the size of the PictureBox to match the size of the panel
-            pictureBox_Scanning.Size = Panel_Camera.ClientSize;
+         //   pictureBox_Scanning.Size = Panel_Camera.ClientSize;
         }
         private void Form_Load(object sender, EventArgs e)
         {
-            pictureBox_Scanning.Width = Panel_Camera.Width;
-            pictureBox_Scanning.Height = Panel_Camera.Height;
+            //pictureBox_Scanning.Width = Panel_Camera.Width;
+            //pictureBox_Scanning.Height = Panel_Camera.Height;
         }
         #region Methoud Styling
         public void RemoveText(object sender, EventArgs e)
@@ -424,7 +434,7 @@ namespace Game
                 }
                 else
                 {
-                    Panel_Camera.Visible = true;
+                   // Panel_Camera.Visible = true;
                     captureDevice = new VideoCaptureDevice(filterInfoCollection[cboDevice.SelectedIndex].MonikerString);
                     captureDevice.NewFrame += CaptureDevice_NewFrame;
                     captureDevice.Start();
@@ -501,14 +511,14 @@ namespace Game
             panel_logged.Visible = true;
             panel_Scan.Visible = true;
             panel_Scan.Visible = true;
-            Panel_Camera.Visible = true;
+            //Panel_Camera.Visible = true;
             panel_Loading.Visible = false;
             img_close.Visible = false;
-            Panel_Camera.SizeChanged += Panel1_SizeChanged;
-            pictureBox_Scanning.Height = Panel_Camera.Height;
-            pictureBox_Scanning.SizeMode = PictureBoxSizeMode.Normal;
-            pictureBox_Scanning.Dock = DockStyle.Fill;
-            pictureBox_Scanning.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
+
+            //Panel_Camera.Width = pictureBox_Scanning.Width;
+            //  Panel_Camera.SizeChanged += Panel1_SizeChanged;
+            pic_scan.Location = new Point((this.ClientSize.Width / 2) - (pic_scan.Width / 2), (panel_Scan.Top + Scan_Message1.Height + Scan_Message2.Height + 30));
+            pictureBox_Scanning.Height = pic_scan.Height - 50;
 
         }
         private void displaySessionPanel()
@@ -783,14 +793,11 @@ namespace Game
 
         }
 
-        //private void UserName_txt_GotFocus(object sender, EventArgs e)
-        //{
-        //    Process.Start("osk.exe"); // Start the on-screen keyboard process
-        //}
+        private void pictureBox_Scanning_Click(object sender, EventArgs e)
+        {
 
-        //private void UserEmail_txt_GotFocus(object sender, EventArgs e)
-        //{
-        //    Process.Start("osk.exe"); // Start the on-screen keyboard process
-        //}
+        }
+
+      
     }
 }
